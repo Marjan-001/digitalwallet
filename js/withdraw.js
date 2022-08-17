@@ -11,7 +11,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function() {
     withdrawField.value = '';
 
     if (isNaN(newWithdrawAmount)) {
-        alert('provide Number');
+        alert('Provide Number');
         return;
     }
 
